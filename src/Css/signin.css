@@ -1,0 +1,80 @@
+.signin_body{
+    background: #F7F8FA;
+    padding: 30px 0px;
+}
+.signin_body .signin_container{
+    margin: 0px auto;
+    width: 750px;
+}
+.signin_body .signin_container .customer{
+    width: 260px;
+    padding: 15px 0px;
+    background: #223564;
+    font: normal normal bold 24px/28px Roboto;
+    color: #FFFFFF;
+    text-align: center;
+}
+.signin_body .signin_container .form_section{
+    padding: 30px 0px;
+    border-top: 2px solid #223564;
+    background:#ffffff;
+    box-shadow: 3px 3px 10px #00000029;
+}
+.signin_body .signin_container .form_section form .form_input{
+    width: 580px;
+    margin: 0px auto 30px auto;
+    text-align: left;
+}
+.signin_container .form_section{
+    text-align: center;
+}
+.signin_container .form_section form .form_input label{
+    font: normal normal normal 16px/26px Helvetica Neue;
+    color: #707070;
+}
+.signin_container .form_section form .form_input input{
+    display: block;
+    width: 100%;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+    outline: none;
+    font: normal normal 21px/25px Helvetica Neue;
+    padding-left: 5px;
+}
+.signin_container .form_section form button{
+    width: 580px;
+    height: 70px;
+    background:#223564;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color:#FFFFFF;
+}
+
+@media (max-width:850px){
+    .signin_body .signin_container{
+        width: 90%;
+    }
+    .signin_body .signin_container .form_section form .form_input{
+        width: 90%;
+    }
+    .signin_container .form_section form button{
+        width: 90%;
+    }
+}
+@media (max-width:550px){
+    .signin_container .form_section form .form_input input{
+        height: 40px;
+    }
+    .signin_container .form_section form button{
+        height: 40px;
+    }
+    .signin_body .signin_container .customer{
+        width: 200px;
+        padding:10px 0px;
+    }
+    
+}

@@ -1,0 +1,99 @@
+.signup_body{
+    background: #F7F8FA;
+}
+.signup_body .signup_container{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.signup_body .signup_container .image_container{
+    width: 50%;
+}
+.signup_body .signup_container .image_container img{
+    width: 100%;
+}
+.signup_body .signup_container .signup_form{
+    width: 50%;
+}
+.signup_form form{
+    text-align: center;
+}
+.signup_form .header, .signup_form .extra{
+    width: 400px;
+    margin:auto;
+}
+.signup_form .header h3{
+    font: normal normal bold 30px/39px Graphik;
+    color: #090E18;
+    margin-bottom: 50px;
+}
+.signup_form .header p{
+    font: normal normal normal 24px/31px Graphik;
+    color: #4CE797;
+    margin-bottom: 20px;
+}
+.signup_form form input{
+    display: block;
+    width: 400px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #015FCC;
+    border-radius: 9px;
+    margin: auto auto 20px auto;
+    outline: none;
+    padding-left: 5px;
+    font: normal normal normal 20px/31px Graphik;
+}
+.signup_form form input::placeholder{
+    font: normal normal normal 20px/31px Graphik;
+    color: #E4E4E4;
+}
+.signup_form form button{
+    width: 200px;
+    height: 50px;
+    background: #223564;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    color: #ffffff;
+    margin: auto auto 20px auto;
+    cursor: pointer;
+    font-size: 18px;
+}
+.signup_form .extra p{
+    font: normal normal normal 20px/26px Graphik;
+    color: #707070;
+}
+@media (max-width:1050px){
+    .signup_body .signup_container{
+        width: 800px;
+    }
+    .signup_form .header, .signup_form .extra{
+        width: 90%;
+    }
+}
+@media (max-width:850px){
+    .signup_body .signup_container{
+        width: auto;
+        padding: 0px 7%;
+        display: grid;
+    }
+    .signup_form .header, .signup_form .extra{
+        width: 86%;
+    }
+    .signup_body .signup_container .image_container{
+        width: 100%;
+        display: none;
+    }
+    .signup_body .signup_container .signup_form{
+        width: 100%;
+    }
+    .signup_form form input{
+        width: 86%;
+    }
+}
+@media (max-width:550px){
+    .signup_form form input{
+        height: 40px;
+    }
+}
